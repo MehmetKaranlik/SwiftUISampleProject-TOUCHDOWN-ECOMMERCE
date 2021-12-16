@@ -18,6 +18,7 @@
 		4660609B276BA926001E2E62 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660609A276BA926001E2E62 /* DetailsView.swift */; };
 		466060A1276BA960001E2E62 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466060A0276BA960001E2E62 /* AppConstants.swift */; };
 		46D28453276BC9B6007BA9E6 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D28452276BC9B6007BA9E6 /* FooterView.swift */; };
+		46D28456276BCE7C007BA9E6 /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D28455276BCE7C007BA9E6 /* CustomNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		4660609A276BA926001E2E62 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		466060A0276BA960001E2E62 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		46D28452276BC9B6007BA9E6 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		46D28455276BCE7C007BA9E6 /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				46D28452276BC9B6007BA9E6 /* FooterView.swift */,
+				46D28455276BCE7C007BA9E6 /* CustomNavigationBar.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D28456276BCE7C007BA9E6 /* CustomNavigationBar.swift in Sources */,
 				46606073276B9486001E2E62 /* HomeView.swift in Sources */,
 				46606071276B9486001E2E62 /* TouchDownApp.swift in Sources */,
 				4660609B276BA926001E2E62 /* DetailsView.swift in Sources */,
