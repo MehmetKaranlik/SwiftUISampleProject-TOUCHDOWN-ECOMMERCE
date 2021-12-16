@@ -1,6 +1,6 @@
 # SwiftUISampleProject-TOUCHDOWN-ECOMMERCE
 
-8th dat of learnign SwiftUI
+8th day of learnign SwiftUI
 4.th demo app.
 
 Responsive E-COMMERCE with SwiftUI
