@@ -1,9 +1,9 @@
-//
-//  FooterView.swift
-//  TouchDown
-//
-//  Created by mehmet karanlık on 16.12.2021.
-//
+    //
+    //  FooterView.swift
+    //  TouchDown
+    //
+    //  Created by mehmet karanlık on 16.12.2021.
+    //
 
 import SwiftUI
 

@@ -1,9 +1,9 @@
-//
-//  LogoView.swift
-//  TouchDown
-//
-//  Created by mehmet karanlık on 22.12.2021.
-//
+    //
+    //  LogoView.swift
+    //  TouchDown
+    //
+    //  Created by mehmet karanlık on 22.12.2021.
+    //
 
 import SwiftUI
 

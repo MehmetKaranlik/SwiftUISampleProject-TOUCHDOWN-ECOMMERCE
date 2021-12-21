@@ -1,17 +1,17 @@
-//
-//  CustomNavigationBar.swift
-//  TouchDown
-//
-//  Created by mehmet karanlık on 16.12.2021.
-//
+    //
+    //  CustomNavigationBar.swift
+    //  TouchDown
+    //
+    //  Created by mehmet karanlık on 16.12.2021.
+    //
 
 import SwiftUI
 
 struct CustomNavigationBar: View {
-    // MARK:  properties
+        // MARK:  properties
     @State private var isAnimating : Bool = false
     
-    // MARK:  body
+        // MARK:  body
     var body: some View {
         HStack {
             Button(action: {}) {
@@ -35,7 +35,7 @@ struct CustomNavigationBar: View {
                         .font(.title)
                         .foregroundColor(.black)
                 }
-            Circle()
+                Circle()
                     .fill(Color.red)
                     .frame(width: 14, height: 14, alignment: .center)
                     .offset(x: 13, y: -10)
@@ -47,7 +47,7 @@ struct CustomNavigationBar: View {
 
 
 
-// MARK:  preview
+    // MARK:  preview
 struct CustomNavigationBar_Previews: PreviewProvider {
     static var previews: some View {
         CustomNavigationBar()
