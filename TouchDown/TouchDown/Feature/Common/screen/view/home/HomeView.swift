@@ -15,20 +15,37 @@ struct ContentView: View {
         // MARK:  body
     var body: some View {
         VStack(spacing : 0) {
-            CustomNavigationBar()
-                .modifier1()
+            buildNavigationBar()
             ScrollView(.vertical,showsIndicators: false) {
                 VStack(spacing:0) {
-                    FeaturedTabSliderView()
-                        .modifier1()
+                    buildSlidingImages()
+                    CategoryGridView(categories: AppConstants.get.categories)
                     Spacer(minLength: 520)
-                    FooterView()
-                        .padding(.horizontal)
+                    buildFooterView()
                 }
             }
         }
         .background(AppConstants.get.colorBackground.ignoresSafeArea(.all, edges: .all))
     }
+    
+    
+    
+    
+    fileprivate func buildNavigationBar() -> some View {
+        return CustomNavigationBar()
+            .modifier1()
+    }
+    
+    fileprivate func buildSlidingImages() -> some View {
+        return FeaturedTabSliderView()
+            .modifier1()
+    }
+    
+    fileprivate func buildFooterView() -> some View {
+        return FooterView()
+            .padding(.horizontal)
+    }
+    
 }
 
 

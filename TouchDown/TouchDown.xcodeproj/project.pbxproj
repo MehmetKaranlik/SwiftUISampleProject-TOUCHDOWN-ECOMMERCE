@@ -12,6 +12,10 @@
 		4641B6AA27728C9800C5E96A /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B6A927728C9800C5E96A /* PlayerModel.swift */; };
 		4641B6AC27728E1E00C5E96A /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B6AB27728E1E00C5E96A /* FeaturedItemView.swift */; };
 		4641B6AE27728EBF00C5E96A /* FeaturedTabSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B6AD27728EBF00C5E96A /* FeaturedTabSliderView.swift */; };
+		4641B6B02772917600C5E96A /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B6AF2772917600C5E96A /* CategoryModel.swift */; };
+		4641B6B2277292B300C5E96A /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B6B1277292B300C5E96A /* CategoryItemView.swift */; };
+		4641B6B5277293B900C5E96A /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B6B4277293B900C5E96A /* CategoryGridView.swift */; };
+		4641B6B72772954800C5E96A /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4641B6B62772954800C5E96A /* SectionView.swift */; };
 		46606071276B9486001E2E62 /* TouchDownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46606070276B9486001E2E62 /* TouchDownApp.swift */; };
 		46606073276B9486001E2E62 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46606072276B9486001E2E62 /* HomeView.swift */; };
 		46606075276B9487001E2E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46606074276B9487001E2E62 /* Assets.xcassets */; };
@@ -32,6 +36,10 @@
 		4641B6A927728C9800C5E96A /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerModel.swift; path = TouchDown/Feature/Common/view/PlayerModel.swift; sourceTree = SOURCE_ROOT; };
 		4641B6AB27728E1E00C5E96A /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		4641B6AD27728EBF00C5E96A /* FeaturedTabSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabSliderView.swift; sourceTree = "<group>"; };
+		4641B6AF2772917600C5E96A /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryModel.swift; path = TouchDown/Feature/Common/view/CategoryModel.swift; sourceTree = SOURCE_ROOT; };
+		4641B6B1277292B300C5E96A /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		4641B6B4277293B900C5E96A /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		4641B6B62772954800C5E96A /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		4660606D276B9486001E2E62 /* TouchDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46606070276B9486001E2E62 /* TouchDownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDownApp.swift; sourceTree = "<group>"; };
 		46606072276B9486001E2E62 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -143,6 +151,9 @@
 				4641B6A5277288B200C5E96A /* LogoView.swift */,
 				4641B6AB27728E1E00C5E96A /* FeaturedItemView.swift */,
 				4641B6AD27728EBF00C5E96A /* FeaturedTabSliderView.swift */,
+				4641B6B1277292B300C5E96A /* CategoryItemView.swift */,
+				4641B6B4277293B900C5E96A /* CategoryGridView.swift */,
+				4641B6B62772954800C5E96A /* SectionView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -204,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				4641B6A927728C9800C5E96A /* PlayerModel.swift */,
+				4641B6AF2772917600C5E96A /* CategoryModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -350,7 +362,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4641B6B5277293B900C5E96A /* CategoryGridView.swift in Sources */,
 				46D28456276BCE7C007BA9E6 /* CustomNavigationBar.swift in Sources */,
+				4641B6B72772954800C5E96A /* SectionView.swift in Sources */,
+				4641B6B02772917600C5E96A /* CategoryModel.swift in Sources */,
 				46606073276B9486001E2E62 /* HomeView.swift in Sources */,
 				46606071276B9486001E2E62 /* TouchDownApp.swift in Sources */,
 				4660609B276BA926001E2E62 /* DetailsView.swift in Sources */,
@@ -359,6 +374,7 @@
 				4641B6A6277288B200C5E96A /* LogoView.swift in Sources */,
 				46D28453276BC9B6007BA9E6 /* FooterView.swift in Sources */,
 				4641B6AC27728E1E00C5E96A /* FeaturedItemView.swift in Sources */,
+				4641B6B2277292B300C5E96A /* CategoryItemView.swift in Sources */,
 				4641B6AA27728C9800C5E96A /* PlayerModel.swift in Sources */,
 				466060A1276BA960001E2E62 /* AppConstants.swift in Sources */,
 			);
