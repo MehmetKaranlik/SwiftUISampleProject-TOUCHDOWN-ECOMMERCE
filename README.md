@@ -2,12 +2,15 @@
 
 8th day of learnign SwiftUI
 4.th demo app.
-
+![Ekran Resmi 2021-12-23 00 31 54](https://user-images.githubusercontent.com/89414084/147157671-8bf4a91a-9b0a-4369-8b58-fb410e28ecc0.png)
+![Ekran Resmi 2021-12-23 00 32 05](https://user-images.githubusercontent.com/89414084/147157680-9170ae1e-42af-407a-930d-1cfb190cb207.png)
 Responsive E-COMMERCE with SwiftUI
 
 Objectives
 
 How to prototype an e-commerce mobile application,
+
+
 
 How the @Environment property wrapper works,
 
