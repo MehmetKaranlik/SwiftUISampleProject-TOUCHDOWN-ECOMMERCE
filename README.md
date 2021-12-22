@@ -1,9 +1,13 @@
 # SwiftUISampleProject-TOUCHDOWN-ECOMMERCE
 
+
+
+
+![Ekran Resmi 2021-12-23 00 34 25](https://user-images.githubusercontent.com/89414084/147157871-b44768c3-9b3e-4e75-a9b8-9ebaae014506.png)
+![Ekran Resmi 2021-12-23 00 34 45](https://user-images.githubusercontent.com/89414084/147157875-1763ab87-e313-47b2-9bf9-25d6a9e2c7b9.png)
+
 8th day of learnign SwiftUI
 4.th demo app.
-![Ekran Resmi 2021-12-23 00 31 54](https://user-images.githubusercontent.com/89414084/147157671-8bf4a91a-9b0a-4369-8b58-fb410e28ecc0.png)
-![Ekran Resmi 2021-12-23 00 32 05](https://user-images.githubusercontent.com/89414084/147157680-9170ae1e-42af-407a-930d-1cfb190cb207.png)
 Responsive E-COMMERCE with SwiftUI
 
 Objectives
