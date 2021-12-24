@@ -13,6 +13,8 @@ struct ContentView: View {
     
     
         // MARK:  body
+
+    
     var body: some View {
         VStack(spacing : 0) {
             buildNavigationBar()
@@ -20,7 +22,11 @@ struct ContentView: View {
                 VStack(spacing:0) {
                     buildSlidingImages()
                     CategoryGridView(categories: AppConstants.get.categories)
-                    Spacer(minLength: 520)
+                    TileView(title: "Helmets")
+                    buildProducts()
+                    .padding()
+                    TileView(title: "Brands")
+                    BrandGridView()
                     buildFooterView()
                 }
             }
@@ -44,6 +50,14 @@ struct ContentView: View {
     fileprivate func buildFooterView() -> some View {
         return FooterView()
             .padding(.horizontal)
+    }
+    
+    fileprivate func buildProducts() -> some View {
+        return LazyVGrid(columns: AppConstants.get.gridLayout, alignment: .center, spacing: 15, pinnedViews: []) {
+            ForEach(AppConstants.get.products) { index in
+                ProductItemView(product: index)
+            }
+        }
     }
     
 }

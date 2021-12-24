@@ -14,11 +14,19 @@ struct AppConstants {
     static var get = AppConstants()
     
     var categories : [Category] {
-        Bundle.main.decode(file: "category.json")
+        Bundle.main.decode("category.json")
     }
     var players: [Player] {
-        Bundle.main.decode(file: "player.json")
+        Bundle.main.decode("player.json")
     }
+    var products : [Product] {
+        Bundle.main.decode("products.json")
+    }
+    var brands : [Brand] {
+        Bundle.main.decode("brand.json")
+    }
+       
+    
     
     lazy var colorGray : Color = Color(UIColor.systemGray4)
     lazy var colorBackground : Color = Color("ColorBackground")
